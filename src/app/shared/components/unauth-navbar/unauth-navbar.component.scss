@@ -1,0 +1,23 @@
+.navbar {
+  position: absolute;
+  width: 100%;
+  background-color: transparent;
+  .nav-container {
+    background-color: var(--white-color);
+    border-radius: 16px;
+    height: 88px;
+    padding: 0 30px;
+    .navbar-brand {
+      img {
+        width: 80px;
+      }
+    }
+    ul {
+      li a {
+        color: var(--text-color);
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+  }
+}

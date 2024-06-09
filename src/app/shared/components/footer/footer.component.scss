@@ -1,0 +1,37 @@
+.footer {
+  width: 100%;
+  .logo-social {
+    .logo {
+      width: 150px;
+    }
+    .social {
+      img {
+        width: 40px;
+        cursor: pointer;
+      }
+    }
+  }
+  .blogs,
+  .quick-access {
+    a {
+      margin-bottom: 15px;
+      font-size: 18px;
+      font-weight: 300;
+      cursor: pointer;
+      width: fit-content;
+    }
+  }
+  .contact {
+    a {
+      margin-bottom: 15px;
+      font-size: 18px;
+      font-weight: 300;
+      color: var(--white-color);
+      text-decoration: none;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+}
